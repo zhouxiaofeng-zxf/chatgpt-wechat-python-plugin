@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+.wechaty/
+__pycache__/
+venv*
+*.pyc
+config.json
+QR.png
+nohup.out
+tmp
