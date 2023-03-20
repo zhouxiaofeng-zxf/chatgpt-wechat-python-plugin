@@ -1,5 +1,5 @@
 # 简介
-### 源码基于---> https://github.com/zhayujie/chatgpt-on-wechat修改
+### 源码基于---> https://github.com/zhayujie/chatgpt-on-wechat 修改  
 
 ## 使用免费云服务docker部署
 [注册railway账号](https://railway.app?referralCode=ZaxyBI)  
