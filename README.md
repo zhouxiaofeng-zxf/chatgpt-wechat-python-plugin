@@ -4,7 +4,7 @@
 ## 使用免费云服务docker部署
 [注册railway账号](https://railway.app?referralCode=ZaxyBI)  
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/db-1el?referralCode=ZaxyBI)  
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/Y39s1P?referralCode=ZaxyBI)
 
 修改环境变量open_ai_api_key
 ```
