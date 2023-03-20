@@ -8,15 +8,15 @@
 
 修改环境变量open_ai_api_key
 ```
-OPEN_AI_API_KEY=你的openai的秘钥，sk开头
+OPEN_AI_API_KEY="你的openai的秘钥，sk开头"
 GROUP_CHAT_PREFIX=["@bot"]
 GROUP_NAME_WHITE_LIST=["ChatGPT测试群", "ChatGPT测试群2"]
 IMAGE_CREATE_PREFIX=["画", "看", "找"]
 SINGLE_CHAT_PREFIX=["bot", "@bot"]
-SINGLE_CHAT_REPLY_PREFIX=[bot] 
+SINGLE_CHAT_REPLY_PREFIX=["bot"] 
 CONVERSATION_MAX_TOKENS=1000
 SPEECH_RECOGNITION=true
-CHARACTER_DESC=你是ChatGPT, 一个由OpenAI训练的大型语言模型
+CHARACTER_DESC="你是ChatGPT, 一个由OpenAI训练的大型语言模型"
 ```
 ![image](https://user-images.githubusercontent.com/17609261/226242207-a4ab41ae-421b-4215-8e88-71bba2d300ef.png)  
 然后查看部署日志中的二维码登录微信  
