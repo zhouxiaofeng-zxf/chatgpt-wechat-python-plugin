@@ -82,7 +82,9 @@ class OpenAIBot(Bot):
                 size="1024x1024"   #图片大小,可选有 256x256, 512x512, 1024x1024
             )
             image_url = response['data'][0]['url']
-            logger.info("image data:{}".format(response['data'][0]))
+            resp_data = response['data'][0]
+            logger.info("resp_data type:{}".format(type(resp_data)))
+            logger.info("image data:{}".format(resp_data))
             logger.info("[OPEN_AI] image_url={}".format(image_url))
             return image_url
         except openai.error.RateLimitError as e:
