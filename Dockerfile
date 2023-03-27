@@ -30,7 +30,7 @@ RUN chmod +x /entrypoint.sh \
     && pip3 install --upgrade openai \
     && pip3 show openai \
     && adduser -D -h /home/noroot -u 1000 -s /bin/bash noroot \
-    && chown noroot:noroot ${BUILD_PREFIX}
+    && chown -R noroot:noroot ${BUILD_PREFIX}
 
 USER noroot
 
