@@ -1,4 +1,26 @@
 # 简介
+## 使用免费云服务docker部署
+[注册railway账号](https://railway.app?referralCode=ZaxyBI)  
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/5AWr94?referralCode=ZaxyBI)
+
+修改环境变量open_ai_api_key
+```
+OPEN_AI_API_KEY="你的openai的秘钥，sk开头"
+GROUP_CHAT_PREFIX=["@bot"]
+GROUP_NAME_WHITE_LIST=["ChatGPT测试群", "ChatGPT测试群2"]
+IMAGE_CREATE_PREFIX=["画", "看", "找"]
+SINGLE_CHAT_PREFIX=["bot", "@bot"]
+SINGLE_CHAT_REPLY_PREFIX="[bot] "
+CONVERSATION_MAX_TOKENS=1000
+SPEECH_RECOGNITION=true
+CHARACTER_DESC="你是ChatGPT, 一个由OpenAI训练的大型语言模型"
+```
+![image](https://user-images.githubusercontent.com/17609261/226242207-a4ab41ae-421b-4215-8e88-71bba2d300ef.png)  
+然后查看部署日志中的二维码登录微信  
+![image](https://user-images.githubusercontent.com/17609261/226242370-705d95f5-c3ad-454a-adb8-1a36abf55fb4.png)  
+![image](https://user-images.githubusercontent.com/17609261/226242464-bc080888-0cb8-4284-83aa-b8c938bce439.png)  
+
 
 > ChatGPT近期以强大的对话和信息整合能力风靡全网，可以写代码、改论文、讲故事，几乎无所不能，这让人不禁有个大胆的想法，能否用他的对话模型把我们的微信打造成一个智能机器人，可以在与好友对话中给出意想不到的回应，而且再也不用担心女朋友影响我们 ~~打游戏~~ 工作了。
 
