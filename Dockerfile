@@ -28,6 +28,7 @@ ADD docker/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh \
     && pip3 install itchat-uos==1.5.0.dev0 \
     && pip3 install --upgrade openai \
+    && pip3 install webuiapi \
     && pip3 show openai \
     && adduser -D -h /home/noroot -u 1000 -s /bin/bash noroot \
     && chown -R noroot:noroot ${BUILD_PREFIX}
